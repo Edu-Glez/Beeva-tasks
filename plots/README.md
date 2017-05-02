@@ -26,6 +26,10 @@ plt.xticks([i for i, _ in enumerate(aux2)], aux2)
 plt.show()
 ```
 
+### Resultados
+
+![alt text](https://github.com/Edu-Glez/Beeva-tasks/blob/master/plots/PLOT1.png)
+
 ## Plot #2
 With this plot we can see the total sum of ratings for each genre
 
@@ -54,6 +58,10 @@ plt.xticks([i for i, _ in enumerate(aux4)], aux4)
 
 plt.show()
 ```
+### Resultados
+
+![alt text](https://github.com/Edu-Glez/Beeva-tasks/blob/master/plots/PLOT2.png)
+
 
 ## Plot #3
 With this plot we obtain the average points per genre
@@ -80,3 +88,7 @@ plt.xticks([i for i, _ in enumerate(aux4)], aux4)
 
 plt.show()
 ```
+
+### Resultados
+
+![alt text](https://github.com/Edu-Glez/Beeva-tasks/blob/master/plots/PLOT3.png)
