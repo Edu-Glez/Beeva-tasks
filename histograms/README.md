@@ -1,6 +1,6 @@
 # Python histograms with matplotlib
 
-This folder contains some screenshots of the different histograms obtained from the movies.py script from the data-storage repo, and the commands introduced in order to get those histograms. This commands should be run in the python shell and in order from the first histogram to the second because they use the information obtained from the one before
+This folder contains some screenshots of the different histograms obtained from the movies.py script from the data-storage repo, and the commands introduced in order to get those histograms. This commands should be run in the python shell and in order from the first histogram to the second because they use the information obtained from the one before. Be sure to have your "movies" script ready so it can be run like it is shown below.
 
 ## Histogram #1
 With this histogram we show the amount of people that gave a specific rating to the top five movies altogether.
