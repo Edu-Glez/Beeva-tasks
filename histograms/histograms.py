@@ -1,12 +1,3 @@
-# Python histograms with matplotlib
-
-This folder contains some screenshots of the different histograms obtained from the movies.py script from the data-storage repo, and the commands introduced in order to get those histograms. This commands should be run in the python shell and in order from the first histogram to the second because they use the information obtained from the one before. Be sure to have your "movies" script ready so it can be run like it is shown below. You could also paste the script 'histograms.py' that is in this folder into the python_scripts folder in the data-storage repo and run it from there.
-
-## Histogram #1
-With this histogram we show the amount of people that gave a specific rating to the top five movies altogether.
-
-```python
-#Import necessary libraries
 from movies import *
 from matplotlib import pyplot as plt
 import numpy as np
@@ -49,18 +40,7 @@ plt.title("Top 5 Movies Histogram")
 plt.xlabel("Rating")
 plt.ylabel("Frequency")
 plt.legend()
-plt.show()
-```
 
-### Results
-
-![alt text](https://github.com/Edu-Glez/Beeva-tasks/blob/master/histograms/HIST1.png)
-
-
-## Histogram #2
-With this histogram we show the same information as above but with each movie in a different subplot
-
-```python
 #Create figure to plot the second histogram
 plt.figure()
 
@@ -128,8 +108,3 @@ plt.suptitle("Top 5 Movies Histogram",size=9)
 plt.tight_layout()
 
 plt.show()
-```
-
-### Results
-
-![alt text](https://github.com/Edu-Glez/Beeva-tasks/blob/master/histograms/HIST2.png)
